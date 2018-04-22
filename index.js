@@ -23,5 +23,6 @@ function currentLine (katzDeliLine) {
     myOutputLine.push(i+1);
     myOutputLine.push(". ");
     myOutputLine.push(katzDeliLine[i]);
+    myOutputLine.push(", ");
   }
 }
