@@ -24,9 +24,9 @@ function currentLine (katzDeliLine) {
     myOutputLine += ". ";
     myOutputLine += katzDeliLine[i];
     if (i!==katzDeliLine.length-1) {
-      
+     myOutputLine += ", "; 
     }
-    myOutputLine += ", ";
+    
   }
   return myOutputLine;
 }
