@@ -15,5 +15,5 @@ function nowServing (katzDeliLine) {
   }
   firstPerson = katzDeliLine[0];
   katzDeliLine.shift();
-  return firstPerson;
+  return "Now servingfirstPerson;
 }
