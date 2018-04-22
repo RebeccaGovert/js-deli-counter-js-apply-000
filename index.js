@@ -9,11 +9,8 @@ function takeANumber (katzDeliLine, newPersonName) {
 
 
 function nowServing (katzDeliLine) {
-  var firstPerson = "";
-  if (katzDeliLine.length===0) {
+   if (katzDeliLine.length===0) {
     return "There is nobody waiting to be served!"
   }
-  firstPerson = katzDeliLine[0];
-//  katzDeliLine.shift();
   return "Currently serving " + katzDeliLine.shift() + ".";
 }
