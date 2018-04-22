@@ -5,3 +5,7 @@ function takeANumber (katzDeliLine, newPersonName) {
   
   return "Welcome, " + newPersonName + ". You are number " + katzDeliLine.length  + " in line.";
 }
+
+function nowServing () {
+  if 
+}
