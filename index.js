@@ -25,4 +25,5 @@ function currentLine (katzDeliLine) {
     myOutputLine.push(katzDeliLine[i]);
     myOutputLine.push(", ");
   }
+  return myOutputLine;
 }
