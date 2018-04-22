@@ -23,7 +23,7 @@ function currentLine (katzDeliLine) {
     myOutputLine += (i+1);
     myOutputLine += ". ";
     myOutputLine += katzDeliLine[i];
-    myOutputLine =+ ", ";
+    myOutputLine += ", ";
   }
   return myOutputLine;
 }
