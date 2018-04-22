@@ -20,9 +20,9 @@ function currentLine (katzDeliLine) {
     return "The line is currently empty."
   }
   for (var i=0; i < katzDeliLine.length; i++) {
-    myOutputLine += (i+1) + 
-    myOutputLine += ". ";
-    myOutputLine += katzDeliLine[i];
+    myOutputLine += (i+1) + ". "
+//    myOutputLine += ". ";
+ //   myOutputLine += katzDeliLine[i];
     if (i!==katzDeliLine.length-1) {
      myOutputLine += ", "; 
     }
