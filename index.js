@@ -20,10 +20,10 @@ function currentLine (katzDeliLine) {
     return "The line is currently empty."
   }
   for (var i=0; i < katzDeliLine.length; i++) {
-    myOutputLine.push(i+1);
-    myOutputLine.push(". ");
-    myOutputLine.push(katzDeliLine[i]);
-    myOutputLine.push(", ");
+    myOutputLine += (i+1);
+    myOutputLine += ". ";
+    myOutputLine += katzDeliLine[i];
+    myOutputLine =+ ", ";
   }
   return myOutputLine;
 }
